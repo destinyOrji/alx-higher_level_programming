@@ -2,7 +2,7 @@
 
 if __name__ == "__main__":
     """print the sum, difference, multiple and quotient of 10 and 5."""
-    from calculator_1 import add, div, mul, sub
+    from calculator_1.py import add, div, mul, sub
 
     a = 10
     b = 5

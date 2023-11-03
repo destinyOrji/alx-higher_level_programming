@@ -7,4 +7,4 @@ if __name__ == "__main__":
     for name in names:
         if name[1] == '_':
             continue
-            print(names)
+        print(names)

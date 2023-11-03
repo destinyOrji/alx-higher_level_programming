@@ -3,7 +3,7 @@
 if __name__ == "__main__":
     import hidden_4 as hd
 
-    names = dir(hd_4)
+    names = dir(hd)
     for name in names:
         if name[1] == '_':
             continue

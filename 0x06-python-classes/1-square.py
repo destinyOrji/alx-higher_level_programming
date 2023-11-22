@@ -1,8 +1,21 @@
 #!/usr/bin/python3
- (python3 -c 'print(__import__("my_module").__doc__)')
+# 0-square.py by orji destiny
+"""creating an emptySquare class"""
+
 class Square:
-(python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+    """This class represents a square.
+
+    It is initialized with a size attribute that defines the side length of the square.
+
+    Attributes:
+        __size (int): The side length of the square.
+    """
+
     def __init__(self, size):
-        (python3 -c 'print(__import__("my_module").my_function.__doc__)'
-            python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+        """Initialize the Square instance with a given size.
+
+        Args:
+            size (int): The side length of the square.
+        """
         self.__size = size
+

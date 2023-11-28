@@ -1,3 +1,1 @@
-#!/usr/bin/python3
-"""the a and b does not poith to the same object"""
 No
